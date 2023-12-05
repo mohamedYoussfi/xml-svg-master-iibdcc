@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE meteo SYSTEM "file:/Users/mohamedyoussfi/Documents/svg/meteo.dtd">
+<meteo>
+    <mesure date="2011-11-11">
+        <ville nom="Casa" temperature="45"/>
+        <ville nom="" temperature="rytrt"/>
+        <ville nom="" temperature=""/>
+        <ville nom="" temperature=""/>
+    </mesure>
+    <mesure date="">
+        <ville nom="" temperature=""/>
+        <ville nom="" temperature=""/>
+        <ville nom="" temperature=""/>
+    </mesure>
+</meteo>

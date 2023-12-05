@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" > 
+    <xsd:element name="meteo">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="mesure" minOccurs="1" maxOccurs="unbounded" type="TM"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="TM">
+        <xsd:sequence>
+            <xsd:element name="ville" minOccurs="1" maxOccurs="10" type="TV"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="date" type="xsd:date" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="TV">
+        <xsd:attribute name="nom" type="xsd:string" use="required"></xsd:attribute>
+        <xsd:attribute name="temperature" type="xsd:double" use="required"></xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>
